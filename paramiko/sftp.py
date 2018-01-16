@@ -2,11 +2,7 @@
 
 import paramiko
 import os
-
-hostname = ''
-port = 22
-username = ''
-password = ''
+from __init__ import *
 dir_path = ''  # Remote directory to be parsed
 
 if __name__ == "__main__":
